@@ -18,55 +18,20 @@ var app = new Framework7({
             url: 'index.html',
             name: 'home',
         },
-        {
-            path: '/pizza/',
-            url: 'pizza.html',
-            name: 'pizza',
-        },
-        {
-            path: '/combos/',
-            url: 'combos.html',
-            name: 'combos',
-        },
-        {
-            path: '/ingrediente/',
-            url: 'ingrediente.html',
-            name: 'ingrediente',
-        },
-        {
-            path: '/carrito/',
-            url: 'carrito.html',
-            name: 'carrito',
+		{
+            path: '/flores/',
+            url: 'flores.html',
+            name: 'flores',
         },
 		{
-            path: '/checkout/',
-            url: 'checkout.html',
-            name: 'checkout',
-        },
-        {
-            path: '/carritocompra/',
-            url: 'carritocompra.html',
-            name: 'carritocompra',
+            path: '/informacion/',
+            url: 'informacion.html',
+            name: 'informacion',
         },
 		{
-			path: '/pago/',
-			url: 'pago.html',
-			name: 'pago',
-		},
-		{
-			path: '/direcciones/',
-			url: 'direcciones.html',
-			name: 'direcciones',
-		},
-        {
-            path: '/config/',
-            url: 'config.html',
-            name: 'config',
-        },
-        {
-            path: '/cambiarcontra/',
-            url: 'cambiarcontra.html',
-            name: 'cambiarcontra',
+            path: '/perfil/',
+            url: 'perfil.html',
+            name: 'perfil',
         }
     ]
 });

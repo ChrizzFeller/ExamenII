@@ -4,397 +4,57 @@ body {
     color: var(--negro);
 }
 
-:root {
-    --amarillo: #F9C22D;
-    --rojo: #D75437;
-    --naranja: #F18805;
-    --blanco: #F3EFE0;
-    --negro: #474747;
-    --f7-theme-color: #D75437;
-    --f7-list-border-color: none;
-    --f7-page-bg-color: #F9C22D;
+.categorias .card{
+	background-color: var(--azul);
+	color: #fff;
+	padding: 5px 10px;
 }
 
-.panel-right {
-    background-color: var(--blanco);
-    color: var(--rojo);
-}
-
-.navbar-bg {
-    background-color: var(--amarillo);
-}
-
-.navbar .title {
-    font-weight: bold;
-    font-size: 22px;
-    color: var(--rojo);
-}
-
-.list {
-    padding-top: 0;
-    margin-top: 0;
-}
-
-.list-menu .item-media span {
-    color: var(--rojo);
-}
-
-.list-menu .item-inner {
-    color: var(--negro);
-    font-weight: 700 !important;
-}
-
-.list-menu {
-    background-color: var(--blanco) !important;
-    font-size: 14px;
-}
-
-.list-menu .item-inner::before {
-    color: var(--negro) !important;
-}
-
-.list-menu .item-inner::after {
-    background-color: transparent;
-}
-
-.list-menu li {
-    padding-top: 10px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-    margin: 2px 0;
-}
-
-article .page-content {
-    background: var(--naranja);
-}
-
-.opcion {
-    padding-top: 10px;
-}
-
-.bg-pizza {
-    background-image: url("../img/04 pizza Desde 0.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: 5%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #474747;
-}
-
-.bg-promo {
-    background-image: url("../img/combos/Combo_COMPRESSED.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: 5%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #474747;
-}
-
-.bg-togo {
-    background-image: url("../img/08 combos.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: 5%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #474747;
-}
-
-.bg-desde0 {
-    background-image: url("../img/03 pizza Desde 0.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: 5%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #474747;
-}
-
-.menu-principal h2 {
-    margin: -5%;
-    color: var(--blanco);
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-    padding: 17%;
-    background-color: rgba(0, 0, 0, .2);
-    text-shadow: 0.5px 0.5px var(--naranja);
-}
-
-.img-fluid {
-    max-width: 100%;
-	min-height: 100%;
-}
-
-.altura-card {
-    min-width: 213px;
-}
-
-.altura-imagen {
-    line-height: 0;
-}
-
-.card {
-    background-color: var(--blanco);
-}
-
-.combos.card {
-    margin-top: 25px;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-.texto-combos {
-    padding-right: 10px;
-}
-
-.titulo-combos {
-    text-align: center;
-}
-
-.info-combos {
-    margin-left: -23px;
-    text-align: center;
-}
-
-.precio-combos {
-    text-align: right;
-    padding-right: 5px;
-    margin-top: 7px;
-    font-size: 12px;
-    color: var(--rojo);
-}
-
-.combos-lista a {
-	color: var(--negro) !important;	
-}
-
-
-/*Linda Donaire - inicio*/
-
-.img-fluid.img-ingrediente {
-    border-radius: 100%;
-    width: 85px;
-}
-
-.bg-ingrediente h2 {
-    color: var(--negro);
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 8px;
-}
-
-.bg-ingrediente h3 {
-    font-size: 12px;
-    text-align: center;
-}
-
-.bg-ingrediente h4 {
-    font-size: 12px;
-    font-weight: lighter;
-    text-align: center;
-}
-
-.total-ingrediente article {
-    padding-top: 20px;
-}
-
-.total-ingrediente h4 {
-    font-weight: lighter;
-}
-
-.bg-carrito h3 {
-    color: var(--negro);
-    font-size: 18px;
-}
-
-.bg-carrito h4 {
-    color: var(--negro);
-    font-size: 17px;
-}
-
-.carrito-descrip {
-    margin-top: -20px;
-    margin-left: 15px;
-}
-
-.carrito-descrip h3 {
-    color: var(--negro);
-    font-size: 9px;
-    font-weight: lighter;
-}
-
-.carrito-descrip h4 {
-    color: var(--negro);
-    font-size: 17px;
-    text-align: center;
-    margin-top: 9px;
-}
-
-.subtotal {
-    padding-top: 30px;
-    margin-left: 15px;
-}
-
-.subtotal h3,
-.subtotal h4 {
-    font-size: 12px;
-    font-weight: lighter;
-}
-
-.total-negrita {
-    margin-left: 15px;
-}
-
-.total-negrita h3,
-.total-negrita h4 {
-    font-size: 18px;
-}
-
-#btnplus {
-    background-color: var(--amarillo);
-    color: var(--rojo);
-    margin-top: -10px;
-}
-
-.bg-carritocompra h2 {
-    text-align: center;
-    padding-top: 55%;
-    padding-bottom: 20px;
-}
-
-.bg-carritocompra {
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.navbar .delete-orden {
-    margin-right: 5px;
-}
-
-/*Linda Donaire - final*/
-
-/*Christian Henriquez*/
-
-.list-pago {
-	padding-top: 50px;
-	background-color: transparent !important;
-}
-
-.lista-direcciones {
-	padding-top: 50px;
-}
-
-.list-pago .list .item-link {
-	background-color: var(--blanco) !important;
-}
-
-.lista-direcciones .list .item-link {
-	background-color: var(--blanco) !important;
-}
-
-.username-block {
-	margin: 0 !important;
-	padding-top: 30px;
-	padding-bottom: 10px;
-}
-
-/*Christian Henriquez - final*/
-
-
-/*Michelle - inicio*/
-.titulo-config{
-	font-size: 22px;
-	color: var(--negro);
-    font-weight: bold;
-    padding-bottom: 12px;
-}
-.content-config{
-	color: var(--negro);
-	font-size: 14px;
-	font-weight: 300;
-	padding: 0 !important;
-	margin-left: -10px !important;
-}
-.media-config{
-	color: var(--rojo);
-	font-size: 18px;
-}
-.media-config .material-icons{
+.categorias .card-content img {
+	width: 120px;
 	text-align: center;
 }
-.list-pref,
-.list-about{
-	background-color: var(--amarillo) !important;
-}
 
-
-.form-group{
-	font-size: 18px;
-	color: var(--negro);
-	font-weight: bold;
-}
-.form-control{
-	background-color: var(--blanco);
-}
-.btn-cambiarcontra{
-	background-color: var(--naranja);
-	color: #fff;
-	font-weight: bold;
-	font-size: 13px;
-	padding: 10px 100%;
-}
-/*Michelle - inicio*/
-
-/*Gabriel - incio*/
-.login-screen .page, .login-screen-content, .login-screen-page{
-	background-color:  #F9C22D !important;
-}
-#login img{
-	width: 500px;
-}
-
-.checkout .cross{
-	color: var(--rojo);
+.categorias h3 {
+	color: #000;
+	font-size: 15px;
 	font-weight: 600;
-	font-size: 40px;
+	text-align: center;
 }
-.checkout h3{
-	margin-top: 50px;
+
+.lista-productos .item-media img {
+	width: 70px;
+	text-align: center;
 }
-.checkout h1{
+
+.info {
+	padding-top: 0;
+}
+
+.categorias2 {
+	padding-top: 50px;
+}
+
+.categorias2 .card{
+	background-color: var(--azul);
+	padding: 5px 10px;
 	font-size: 20px;
 }
-.checkout .counter span{
-	background-color: var(--naranja);
-	border-radius: 50%;
-	box-shadow: 1px 1px var(--rojo);
-}
-.checkout .addmore span{
-	background-color: var(--naranja);
-	border-radius: 50%;
-	box-shadow: 1px 1px var(--rojo);
-	font-size: 45px;
+
+.categorias2 .card-header img {
+	width: 350px;
 	text-align: center;
-	margin-top: 75px;
-	margin-left: 210px;
 }
-.checkout .total p{
-	text-align: left;
+
+.perfil_i {
+	padding-top: 45px;
 }
-.checkout .total span{
-	margin-left: 30px;
+
+.perfil_i .block {
+	margin-top: 0;
 }
-.checkout .total h2{
-	text-align: left;
+
+.perfil_i .block img {
+	width: 120px;
+	margin-right: 25px;
 }
-.checkout .btn-orden a{
-	background-color: var(--naranja);
-	box-shadow: 1px 1px var(rojo);
-	color: var(--blanco);
-	margin-top: 20px;
-}
-/*Gabriel - final*/
